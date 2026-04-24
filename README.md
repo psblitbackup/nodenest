@@ -1,6 +1,7 @@
 cat > tutorials/day-01-introduction.md <<'EOF'
 # Day 1: Introduction to Node.js and NestJS
 
+echo "\n## 🚀 Day 2 Tutorial\n\n- Basic NestJS setup\n- Project structure explained\n- Running first module\n" >> README.md
 ## Goal
 
 In Day 1, you will understand what Node.js and NestJS are, why they are useful, and how a basic NestJS project is structured.
