@@ -1,28 +1,44 @@
-cat > README.md <<'EOF'
-# NodeNest Tutorial
+cat > tutorials/day-01-introduction.md <<'EOF'
+# Day 1: Introduction to Node.js and NestJS
 
-A beginner-friendly tutorial repository for learning Node.js and NestJS step by step.
+## Goal
 
-## What You Will Learn
+In Day 1, you will understand what Node.js and NestJS are, why they are useful, and how a basic NestJS project is structured.
 
-- Basic Node.js setup
-- NestJS project structure
-- Controllers, services, and modules
-- REST API development
-- Request validation
-- Database integration basics
-- Authentication basics
+## 1. What is Node.js?
 
-## Requirements
+Node.js is a runtime environment that allows JavaScript to run outside the browser.
 
-Before starting, install:
+Usually JavaScript runs inside browsers like Chrome, Firefox, or Safari. With Node.js, we can use JavaScript to build backend applications, APIs, command-line tools, and real-time applications.
 
-- Node.js 18+
-- npm or yarn
+## 2. What is NestJS?
+
+NestJS is a backend framework built on top of Node.js. It uses TypeScript and helps developers build clean, scalable, and maintainable server-side applications.
+
+NestJS is very useful for building REST APIs, microservices, and enterprise-level applications.
+
+## 3. Why Learn NestJS?
+
+NestJS is popular because it provides:
+
+- Clean folder structure
+- TypeScript support
+- Dependency injection
+- Module-based architecture
+- Easy API development
+- Good testing support
+- Scalable backend structure
+
+## 4. Required Tools
+
+Install these tools before starting:
+
+- Node.js
+- npm
 - Git
 - VS Code
 
-Check versions:
+Check installation:
 
 ```bash
 node -v
